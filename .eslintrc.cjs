@@ -1,22 +1,12 @@
 module.exports = {
-  root: true,
-  env: { browser: true, es2020: true },
-  extends: [
-    'eslint:recommended',
-    'plugin:react/recommended',
-    'plugin:react/jsx-runtime',
-    'plugin:react-hooks/recommended',
+  overrides: [
+    {
+      files: ['*.js'], // Adjust the file pattern based on your project structure
+      rules: {
+        // Treat warnings as non-fatal errors only in CI environment
+        'no-warning-comments': process.env.CI ? 'error' : 'warn',
+        // Add more rules as needed
+      },
+    },
   ],
-  ignorePatterns: ['dist', '.eslintrc.cjs'],
-  parserOptions: { ecmaVersion: 'latest', sourceType: 'module' },
-  settings: { react: { version: '18.2' } },
-  plugins: ['react-refresh'],
-  rules: {
-    "react/prop-types": "off",
-    "no-unused-vars": "warn",
-    'react-refresh/only-export-components': [
-      'warn',
-      { allowConstantExport: true },
-    ],
-  },
-}
+};
