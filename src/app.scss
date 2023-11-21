@@ -15,14 +15,14 @@ a {
   color: inherit;
 }
 
-html {
-  scroll-snap-type: y mandatory;
-  scroll-behavior: smooth;
-}
+// html {
+//   scroll-snap-type: y mandatory;
+//   scroll-behavior: smooth;
+// }
 
 section {
   height: 100vh;
-  scroll-snap-align: center;
+  // scroll-snap-align: center;
 }
 
 @mixin mobile {
