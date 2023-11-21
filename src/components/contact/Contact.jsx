@@ -83,7 +83,7 @@ function Contact() {
         <motion.h1 variants={variants}>lets work together</motion.h1>
         <motion.div className="item" variants={variants}>
           <h2>Mail</h2>
-          <a href="#">bhmostafa19@gmail.com</a>
+          <a href="mailto:bhmostafa19@gmail.com">bhmostafa19@gmail.com</a>
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>Address</h2>
@@ -91,7 +91,7 @@ function Contact() {
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>Phone</h2>
-          <a href="#">+212652657144</a>
+          <a href="https://wa.me/qr/NU6S75PRHHFFH1">+212652657144</a>
         </motion.div>
       </motion.div>
       <div className="formContainer">

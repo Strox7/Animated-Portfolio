@@ -57,9 +57,13 @@ function Hero() {
           </motion.h1>
           <motion.div variants={textVariants} className="buttons">
             <motion.button variants={textVariants}>
-              See the Latest Works
+              <a href="https://github.com/Strox7">See the Latest Works</a>
             </motion.button>
-            <motion.button variants={textVariants}>Contact Me</motion.button>
+            <motion.button variants={textVariants}>
+              <a href="https://www.linkedin.com/in/mostafa-bouhanout-4a2656298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                Contact Me
+              </a>
+            </motion.button>
           </motion.div>
           <motion.img
             variants={textVariants}

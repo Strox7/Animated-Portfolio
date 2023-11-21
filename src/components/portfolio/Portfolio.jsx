@@ -8,6 +8,7 @@ const items = [
     title: "React Netflix",
     img: "/netflix.png",
     desc: "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quo exercitationem, quibusdam maxime ipsam reprehenderit, esse distinctio necessitatibus ratione ab rem nesciunt! Rerum porro cumque aut eaque veniam! Labore, optio.",
+    link: "https://black-belt4.pages.dev/",
   },
 
   {
@@ -15,6 +16,7 @@ const items = [
     title: "React GYM",
     img: "/bbelt.png",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quo exercitationem, quibusdam maxime ipsam reprehenderit, esse distinctio necessitatibus ratione ab rem nesciunt! Rerum porro cumque aut eaque veniam! Labore, optio.",
+    link: "https://black-belt4.pages.dev/",
   },
 
   {
@@ -22,6 +24,7 @@ const items = [
     title: "Vanilla JS App",
     img: "/optic.png",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quo exercitationem, quibusdam maxime ipsam reprehenderit, esse distinctio necessitatibus ratione ab rem nesciunt! Rerum porro cumque aut eaque veniam! Labore, optio.",
+    link: "https://optictvv2.pages.dev/",
   },
 
   {
@@ -29,6 +32,7 @@ const items = [
     title: "HTML CSS App",
     img: "/voge.png",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quo exercitationem, quibusdam maxime ipsam reprehenderit, esse distinctio necessitatibus ratione ab rem nesciunt! Rerum porro cumque aut eaque veniam! Labore, optio.",
+    link: "https://voge-site.pages.dev/",
   },
 ];
 
@@ -52,7 +56,9 @@ const Single = ({ item }) => {
           <motion.div className="textContainer" style={{ y }}>
             <motion.h2>{item.title}</motion.h2>
             <p>{item.desc}</p>
-            <button>See Demo</button>
+            <button>
+              <a href={item.link}>See Demo</a>
+            </button>
           </motion.div>
         </div>
       </div>

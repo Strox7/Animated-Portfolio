@@ -15,17 +15,17 @@ function Navbar() {
           Strox7
         </motion.span>
         <div className="social">
-          <a href="#">
+          <a href="https://www.facebook.com/profile.php?id=100022610319803&mibextid=ZbWKwL">
             <img src="/facebook.png" alt="" />
           </a>
-          <a href="#">
+          <a href="https://instagram.com/mostaffa_bh?igshid=NzZlODBkYWE4Ng==">
             <img src="/instagram.png" alt="" />
           </a>
-          <a href="#">
-            <img src="/youtube.png" alt="" />
+          <a href="https://github.com/Strox7">
+            <img src="/github2.png" alt="" />
           </a>
-          <a href="#">
-            <img src="/dribbble.png" alt="" />
+          <a href="https://www.linkedin.com/in/mostafa-bouhanout-4a2656298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+            <img src="/linkedin.svg" alt="" />
           </a>
         </div>
       </div>
